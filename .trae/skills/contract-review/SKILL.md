@@ -1,13 +1,6 @@
 ---
 name: contract-review
 description: 智能合同审核技能。识别合同类型、提取关键信息、扫描风险条款、检查合规性并生成审核报告。支持 PDF、Word、图片（OCR）格式。当用户上传合同文件、要求审核合同、询问条款风险时使用此技能。
-license: MIT
-compatibility: 需要 Python 3.8+、pdfplumber、python-docx、httpx。OCR 功能需要 QWEN_API_KEY。
-metadata:
-  author: DocumentReviewSkill
-  version: "1.1.0"
-  updated: "2025-02-04"
-  language: zh-CN
 ---
 
 # 合同智能审核
